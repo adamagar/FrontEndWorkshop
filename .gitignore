@@ -88,3 +88,6 @@ coverage/
 *.bak
 *.backup
 *.zip
+/03-bootstrap/assets
+/06-SASS/node_modules
+/07-react/01-basics/node_modules

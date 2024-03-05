@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Types</title>
+</head>
+<body>
+    <form action="/account/register" method="post">
+        <input type="text" name="firstName"> <br>
+        <input type="number" name="age" min="18" max="70"> <br>
+        <input type="email" name="email" id="" required><br>
+        <input type="password" name="password" id="" minlength="5"><br>
+        <input type="search" name="search" id=""><br>
+        <input type="url" name="url" id=""><br>
+        <input type="tel" name="tel" id=""><br>
+        <input type="hidden" name="code" id="">
+
+        <input type="checkbox" id="checkbox" checked>
+        <label for="checkbox"> I accept</label><br>
+
+        <input type="radio" name="gender" id="Male">
+        <label for="Male">Male</label><br>
+        <input type="radio" name="gender" id="Female">
+        <label for="Female">Female</label><br>
+
+        <input type="file" name="image" id=""><br>
+        <input type="color" name="" id=""><br>
+        <input type="range" name="" id=""><br>
+        <input type="date" name="" id="">
+        <input type="time" name="" id="">
+        <input type="datetime-local" name="" id=""><br>
+        <input type="month" name="" id=""><br>
+        <input type="week" name="" id=""><br>
+
+        <select name="city" id="" size="2">
+            <option value="" disabled selected>Select City</option>
+            <option value="toronto">Toronto</option>
+            <option value="montreal">Montreal</option>
+            <option value="ottawa">Ottawa</option>
+        </select><br>
+        <textarea name="" id="" cols="30" rows="10">Share your toughts</textarea>
+        <br>
+        <input type="button" value="Custom" name="" id="">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+</body>
+</html>

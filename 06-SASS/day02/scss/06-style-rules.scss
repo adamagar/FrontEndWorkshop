@@ -1,0 +1,15 @@
+h1 {
+    color: blue
+}
+
+ul {
+    > li {
+        color: orange;
+    }
+
+li {
+    + div {
+        color: green;
+    }
+}
+}

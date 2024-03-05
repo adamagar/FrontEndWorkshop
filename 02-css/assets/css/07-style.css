@@ -1,0 +1,10 @@
+nav.side-menu{
+    text-align: center;
+    background-color: lightgrey;
+    font-size: 25px;
+}
+
+.active{
+    background-color: gray;
+    color: white;
+}

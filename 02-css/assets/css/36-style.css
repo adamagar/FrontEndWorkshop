@@ -1,0 +1,29 @@
+body{
+    background-image: url(../img/sami.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.banner1{
+    background-image: url(../img/selim.png);
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner2{
+    background-image: url(../img/selim.png);
+    height: 40vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.banner3{
+    background-image: url(../img/sami.png);
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}

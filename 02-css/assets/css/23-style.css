@@ -1,0 +1,27 @@
+
+p.about::first-letter{
+    font-size: 3rem;
+}
+p.about::first-line{
+    color: red;
+}
+p.about::selection{
+    background-color: yellow;
+}
+
+.list{
+    color: red;
+}
+.list li::marker{
+    color: blue;
+    font-size: 2rem;
+}
+.title::before{
+    content: "{ ";
+        width: 5px;
+        height: 20px;
+        margin-right: 10px;
+}
+.title::after{
+    content: " }";
+}

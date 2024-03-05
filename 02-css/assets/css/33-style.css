@@ -1,0 +1,12 @@
+.title1{
+    border: 5px solid red;
+    border-top-left-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.title2{
+    border: 5px dashed red;
+    padding: 5px;
+    border-radius: 8px 0 20px 50px;
+}

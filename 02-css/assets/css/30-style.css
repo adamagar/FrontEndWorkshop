@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    text-align: center;
+}
+.cont1{
+    background-color: red;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 300px;
+}
+.cont2{
+    background-color: yellow;
+    flex-basis: 300px;
+    flex-shrink: 0;
+}

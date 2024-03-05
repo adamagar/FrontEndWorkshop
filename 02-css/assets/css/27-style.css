@@ -1,0 +1,20 @@
+.cars{
+    font-size: 2rem;
+}
+.menu, .menu-pseudo{
+    list-style-type: none;
+}
+.menu-pseudo li:first-child::before{
+    font: var(--fa-font-brands);
+    content: "\f430";
+    color: blue;
+    margin-right: .5rem;
+
+}
+.menu-pseudo li:nth-child(2)::before{
+    font: var(--fa-font-brands);
+    content: "\f430";
+    color: red;
+    margin-right: .5rem;
+
+}

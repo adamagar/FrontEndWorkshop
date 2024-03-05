@@ -1,0 +1,15 @@
+*{
+    color: cornflowerblue;
+}
+.center{
+    text-align: center;
+}
+.bg{
+    background-color: beige;
+}
+#prg{
+    color: blueviolet;
+}
+p.center{
+    background-color: aqua !important;
+}

@@ -1,0 +1,28 @@
+.login-form input[type="text"]{
+    background-color: beige;
+    border: none;
+    padding: 5px 10px;
+}
+.login-form input[type="text"]:focus{
+    background-color: burlywood;
+}
+.login-form input[type="checkbox"]:checked{
+    outline: 3px solid red;
+}
+
+ul.lists li:first-child{
+    color: red;
+}
+
+ul.lists li:last-child{
+    color: blue;
+}
+
+ul.lists li:nth-child(3){
+    color: green;
+}
+
+.price-list tr:nth-child(odd){
+    background-color: antiquewhite;
+
+}

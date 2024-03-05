@@ -1,0 +1,33 @@
+
+.container{
+display: flex;
+justify-content: space-around;
+align-items: end;
+height: 50vh;
+border: 2px solid red;
+}
+.container div:nth-child(1){
+    background-color: red;
+    height: 80px;
+    width: 80px;
+}
+.container div:nth-child(2){
+    background-color: blue;
+    height: 80px;
+    width: 80px;
+}
+.container div:nth-child(3){
+    background-color: green;
+    height: 80px;
+    width: 80px;
+}
+.container div:nth-child(4){
+    background-color: yellow;
+    height: 80px;
+    width: 80px;
+}
+.container div:nth-child(5){
+    background-color: orange;
+    height: 80px;
+    width: 80px;
+}

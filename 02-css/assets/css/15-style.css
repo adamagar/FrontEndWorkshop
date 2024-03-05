@@ -1,0 +1,18 @@
+.box1{
+    background-color: aqua;
+    text-align: center;
+}
+.box2{
+    background-color: blue;
+    color: aliceblue;
+}
+.box3{
+    background-color: red;
+    text-align: center;
+}
+.box4{
+    background-color: yellow;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}

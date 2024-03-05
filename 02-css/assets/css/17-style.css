@@ -1,0 +1,26 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+
+  body{
+    font-family: 'Roboto', sans-serif;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+  }
+  nav.main-menu{
+    background-color: lightgray;
+  }
+  nav.main-menu ul{
+    list-style-type: '✅';
+    padding: 0;
+    list-style-position: inside;
+  }
+  nav.main-menu ul li a{
+    padding-right: 50px;
+}
+  nav.main-menu ul li a:hover{
+    background-color: black;
+    color: white;
+  }
+

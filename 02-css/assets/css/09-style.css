@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+p.content {
+  text-decoration: underline;
+  font-style: oblique;
+  font-weight: 900;
+}
+h1.title {
+  font-family: "Pacifico", cursive;
+  font-weight: 100;
+}

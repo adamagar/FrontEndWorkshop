@@ -1,0 +1,12 @@
+.title{
+    background-color: aqua;
+    display: inline-block;
+    padding: 40px;
+}
+span{
+    background-color: bisque;
+    display: block;
+}
+.hidden{
+    display: none;
+}

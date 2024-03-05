@@ -1,0 +1,9 @@
+.lorem-list {
+  list-style-type: circle;
+  line-height: 2rem;
+}
+.lorem-icon {
+  list-style-type: "🎁";
+  line-height: 2rem;
+  list-style-position: inside;
+}

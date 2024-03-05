@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Methods</title>
+</head>
+<body>
+    
+
+    <script>
+        const car1 = {
+            make: "Toyota",
+            model: "Camry",
+            year : 2021,
+            color : "Red",
+            color : "Blue"
+        }
+
+        console.log(car1)
+
+        const car2 = {
+            make: "Mercedes",
+            model : "S Class",
+            year : 3030,
+            price : 10,
+            doors : 5
+        }
+
+        Object.assign(car1, car2)
+        console.log(car1)
+
+        const car3 = Object.assign({}, car2)
+        console.log(car3)
+
+        car3.doors = 7;
+        console.log(car3)
+        console.log(car2)
+        console.log(Object.entries(car2))
+        console.log(Object.keys(car2))
+        console.log(Object.values(car2))
+        console.log(Object.entries(car2)[2])
+    </script>
+</body>
+</html>

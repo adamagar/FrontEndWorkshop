@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    
+
+
+    <script>
+
+        function getAge(){
+            alert(`Age is ${2023 - 2000}`)
+        }
+
+        function getAge1(birthYear){
+            alert(`Age is ${2023 - birthYear}`)
+        }
+
+        function getAge2(birthYear){
+            const dateTime = new Date();
+            const currentYear = dateTime.getFullYear();
+            alert(`Age is ${currentYear - birthYear}`)
+        }
+
+        function getAge3(birthYear){
+            const dateTime = new Date();
+            const currentYear = dateTime.getFullYear();
+            const age = currentYear - birthYear;
+            return age;
+        }
+
+
+        getAge()
+        getAge1(2010)
+        getAge2(2020)
+        const result = getAge3(2023);
+        alert(result)
+    </script>
+</body>
+</html>

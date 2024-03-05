@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    
+    <h1 id="welcome">Welcome to my page</h1>
+    <p class="about">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate id
+      harum sapiente deserunt error laborum dicta quasi expedita ullam ad.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quas
+      dolores assumenda eius explicabo laudantium, delectus rem? Maxime vitae,
+      consequatur qui, repudiandae reiciendis eligendi quibusdam, molestias
+      tempora unde cupiditate esse.
+    </p>
+
+    <script>
+        const welcomeText = document.getElementById("welcome")
+        welcomeText.innerHTML += `!`
+
+        //getElementsByTagBame returns array
+        const pEls = document.getElementsByTagName("p")
+        pEls[0].innerHTML += `NEW TEXT`
+
+        const aboutEL = document.getElementsByClassName("about")
+        aboutEL[0].innerHTML += "Teeeeeexxxxt"
+    </script>
+</body>
+</html>

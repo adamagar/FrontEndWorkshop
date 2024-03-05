@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handler</title>
+</head>
+<body>
+    <button id="btnSayHello1" onclick="sayHello()">Say Hello 1</button>
+    <button id="btnSayHello2" >Say Hello 2</button>
+    <button id="btnSayHello3">Say Hello 3</button>
+    <button id="btnSayHello4">Say Hello 4</button>
+    <button id="btnSayHello5">Say Hello 5</button>
+
+
+    <script>
+
+        // 1st way
+        function sayHello(){
+            alert("Hello World")
+        }
+
+        //2nd way
+        const sayHello2 = () => {
+            alert("Hello2")
+        }
+        document.querySelector("#btnSayHello2").onclick = sayHello2
+
+        //3rd way
+        document.querySelector("#btnSayHello3").onclick = ()=>{
+            alert("Hello world3")
+        }
+
+        //4th way
+        const sayHello4 = () => { 
+            alert("Hello World4")
+         }
+        document.querySelector("#btnSayHello4").addEventListener("click", sayHello4)
+
+        //5th way
+
+        document.querySelector("#btnSayHello5").addEventListener("click", (e) => {
+            alert("Hello World5")
+            alert(e.target.innerText)
+        })
+
+
+        
+
+        
+    </script>
+</body>
+</html>
